@@ -22,4 +22,15 @@ of any Large Language Models. All of the work is my own, except where stated
 otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
 suspected, charges may be filed against me without prior notice.”
 
+## Note
+I am attempting this from scratch, however I believe that I do remember our logic from last semester on the occasions when it came up after class after lecture.
+Please forgive me if it isn't as verbose as my last answer as I am trying to be more concise with this excercise in particular.
+
 ## Answer
+1a)
+1b)
+1c)
+2)
+3a)
+3b)
+3c)
