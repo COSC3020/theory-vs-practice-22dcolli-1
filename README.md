@@ -39,7 +39,9 @@ We set this up using the what we know is the average case for a binary search tr
 
 $constant * log_2(1000$ elements $)=5$ seconds
 
-Simplifying, ($log_2(1000)$ is a constant value), we get $constant * 9.966 =5$
+Simplifying, ($log_2(1000)$ is a constant value), we get: 
+
+$constant * 9.966 =5$
 
 Then we solve for constant:
 
