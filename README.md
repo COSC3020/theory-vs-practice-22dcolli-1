@@ -33,7 +33,7 @@ Finally I will also check my new answers against my old answers after I complete
 1c)
 2) This problem works more like a standard math problem where we know what equation is used, the answer to the equation, and are only missing one constant. 
 We set this up using the what we know is the average case for a binary search tree $\Theta(log_n)$, creating a system of equation using the number of elements and the completion time which wwill look like:
-$constant * log_n(1000 elements)$
+$constant * log_n(1000 elements) = 5 seconds$
 3a)
 3b)
 3c)
