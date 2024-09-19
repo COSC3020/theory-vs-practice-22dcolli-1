@@ -24,7 +24,7 @@ suspected, charges may be filed against me without prior notice.”
 
 ## Note
 I am attempting this from scratch, however I believe that I do remember our logic from last semester on the occasions when it came up after class after lecture.
-Please forgive me if it isn't as verbose as my last answer as I am trying to be more concise with this excercise in particular.
+Please forgive me if it is too drawn out, as I am trying to make my logic clearer with this excercise in particular.
 Finally I will also check my new answers against my old answers after I complete them.
 
 ## Answer
