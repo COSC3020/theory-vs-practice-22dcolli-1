@@ -25,12 +25,14 @@ suspected, charges may be filed against me without prior notice.”
 ## Note
 I am attempting this from scratch, however I believe that I do remember our logic from last semester on the occasions when it came up after class after lecture.
 Please forgive me if it isn't as verbose as my last answer as I am trying to be more concise with this excercise in particular.
+Finally I will also check my new answers against my old answers after I complete them.
 
 ## Answer
 1a)
 1b)
 1c)
-2)
+2) This problem works more like a standard math problem where we know what equation is used, the answer to the equation, and are only missing one constant. 
+We set this up using the what we know is the average case for a binary search tree $/Theta$
 3a)
 3b)
 3c)
