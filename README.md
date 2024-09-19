@@ -28,11 +28,12 @@ Please forgive me if it is too drawn out, as I am trying to make my logic cleare
 Finally I will also check my new answers against my old answers after I complete them.
 
 ## Answer
-1a)
+1a)As mentioned in class, you could define your algorithm using incredably loose bounds on both the higher end and lower end, but that doesn't mean that actually gives you any useful information
+about how your algorithm will actually function. Thinking about it this way, even if you have an analysis, it may be misleading by not telling you anything useful to begin with.
 
-1b)
+1b)On a simular note, the difference in constants may also be a reason for asymptotic analysis to be misleading. As was stated in lecture, we look to ignore the constants in asymptotic analysis, but in practice, we observe that they do have impacts on an algorithm, especially when looking at small amounts of input. When we look at how an algorithm performs working on very large data sets, a difference as small as say 5n and 500n might not be noticable. But when talking about smaller data sets 500 is 100* larger than just 5. On that same note, this logic also applies to the difference in terms we observe in an analysis. Take $n^10 + n^2$ if we were to analyze them, we would simplify it down to just $n^10$. While it may not seem like it, but $n^2$ still has the potential to be very large, and depending ont the data set in actual practice, this may be more or less relevent but regardless, we still may be mislead by the ignoring of constants and smaller terms.
 
-1c)
+1c)My final reason is that asymptotic analysis takes absolutely no account of the hardware it is running on. In a sense, we complete the asymptotic analysis in an ideal void, where everything operates as efficienty as possible at every possible moment. In practice though, we know this is absolutely not the case, older machines run much slower than modern ones, sometimes both types of machines might make a mistake or have mechanical issue. In these cases we would not expect the asymptotic analysis to be comepletely correct.
 
 2a)This problem works more like a standard math problem where we know what equation is used, the answer to the equation, and are only missing one constant. 
 We set this up using the what we know is the average case for a binary search tree $\Theta(log_n)$, creating a system of equation using the number of elements and the completion time which will look like:
@@ -50,6 +51,8 @@ $constant = .502$
 Finally, we plug it back in for our constant but using 10000 elements:
 
 $.502 * log_2(10000$ elements $)= 6.670$
+
+This means that it will take about 6.670 second to complete the tree of 10000 elements.
 
 3a)
 
