@@ -54,8 +54,9 @@ $.502 * log_2(10000$ elements $)= 6.670$
 
 This means that it will take about 6.670 second to complete the tree of 10000 elements.
 
-3a)
+3a)One potential reason for the 100 second runtime, is that the data given to be sorted just happened to be bad or worst case for the algorithm. We saw in class that certain algorithms have better runtimes based on different inputs, so I reason here that there was most likely non-favorable data set.
 
-3b)
+3b)This is sort of a funny reason, but it could be human error in some fashion. More specifically I would like to mention two mistake I personally have made in the past that led to increased runtime. The first mistake was having an incorrect algorithm, someone like me may have written and run this algorithm and while it looks correct, something internally was not set up right due to the programmers mistake. The other mistake I made during cosc 2030, where I had my timer termination put in the wrong spot so the program said I had an infinite runtime. In the given example, this might also be the case, where whatever is timing the runtime is making some sort of mistake.
 
-3c)
+3c)Finally, the las reason I can think of would be related to hardware in some fashion. Again, that might be one or more problems. For example, as mentioned int the first question, asymptotic
+complexity assumes running on the most optimal machinery that is "perfect", which is why it is not considered in the actual analysis. The increased runtime might simply be a result of running the algorithm on super simple hardware like an arduino of some sort. Other than that, the hardware, while very very seldomly, might just have had a mechanical failure of some kind. Running on suboptimal hardware is more likely, but it is not impossible that the machine failed. In either case the runtime might have increased beyond what was expected.
